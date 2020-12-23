@@ -11,5 +11,5 @@ let colors = ['blue','yellow','blue','orange','violet','purple','grey','khaki']
 function buttonClick(e){
     let colorIndex = parseInt(Math.random()*colors.length)
     body.style.backgroundColor = colors[colorIndex]
-    console.log(colors[colorIndex])
+    // console.log(colors[colorIndex])
 }
